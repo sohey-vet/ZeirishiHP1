@@ -1,0 +1,214 @@
+<!--
+Instruction: Proposal A - Professional Design HTML
+This HTML structure is for a professional-looking website for a tax accountant.
+It emphasizes reliability and expertise with a clean, structured layout.
+-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【提案A】稲垣明良税理士事務所 - 信頼と実績の税務パートナー</title>
+    <link rel="stylesheet" href="proposal_A.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">稲垣明良税理士事務所</div>
+            <nav>
+                <ul>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="#strengths">選ばれる理由</a></li>
+                    <li><a href="#about">代表者挨拶</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>BIG4出身税理士が、<br>貴社の成長を会計・税務で力強く支援します。</h1>
+            <p>確かな経験と専門知識で、複雑な税務課題を解決に導くパートナー。</p>
+            <a href="#contact" class="cta-button">初回無料相談はこちら</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="strengths" class="strengths">
+            <div class="container">
+                <h2>当事務所が選ばれる3つの理由</h2>
+                <div class="strength-cards">
+                    <div class="card">
+                        <h3>1. 世界最大級の会計事務所(BIG4)での豊富な実務経験</h3>
+                        <p>多様な業種・規模のクライアントへのサービス提供経験を基に、貴社に最適な解決策を提案。国際税務や複雑な組織再編にも対応可能です。</p>
+                    </div>
+                    <div class="card">
+                        <h3>2. 税理士本人による一貫した直接対応</h3>
+                        <p>「担当者が頻繁に変わる」「資格のない職員が対応する」といったご心配は不要です。代表税理士が一貫して貴社を担当し、責任を持ってサポートします。</p>
+                    </div>
+                    <div class="card">
+                        <h3>3. クラウド会計導入による業務効率化支援</h3>
+                        <p>最新のITツールを活用し、経理業務の自動化・効率化をサポート。リアルタイムでの経営状況の可視化を実現し、迅速な意思決定に貢献します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>サービス内容</h2>
+                <p class="section-subtitle">各項目をクリックすると詳細をご覧いただけます。</p>
+                <div class="service-grid">
+                    <div class="service-item-accordion">
+                        <div class="service-header">
+                            <h3>税務顧問</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="service-detail-content">
+                            <p>お客様のビジネスに寄り添うパートナーとして、税務・経営に関する包括的なサービスをご提供します。日々の疑問解消から、事業の成長戦略まで、一貫してサポートいたします。</p>
+                            <ul>
+                                <li><strong>月次サポート:</strong> 会計帳簿のチェック、月次決算書の作成、経営状況のご報告。</li>
+                                <li><strong>決算・申告業務:</strong> 法人税・消費税等の決算申告書の作成および提出。</li>
+                                <li><strong>税務相談:</strong> 節税対策、資金繰り、融資のご相談に随時対応。</li>
+                                <li><strong>税務調査対応:</strong> 事前準備から調査当日の立会い、事後交渉まで全面的にサポート。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-item-accordion">
+                        <div class="service-header">
+                            <h3>確定申告</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="service-detail-content">
+                            <p>個人事業主・フリーランスの方、不動産や株式等による収入がある方向けのサービスです。メリットを最大化する申告をサポートします。</p>
+                            <ul>
+                                <li><strong>正確な申告:</strong> 専門家として最新の税法に基づき、追徴課税などのリスクを回避します。</li>
+                                <li><strong>時間の節約:</strong> 煩雑な書類準備や計算から解放され、本業に専念いただけます。</li>
+                                <li><strong>最適な節税提案:</strong> 青色申告特別控除や各種所得控除を最大限に活用し、納税額を最適化します。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-item-accordion">
+                        <div class="service-header">
+                            <h3>相続税申告</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="service-detail-content">
+                            <p>ご家族の想いを大切に、円満な資産承継を実現します。相続は準備が重要です。生前対策からご相談ください。</p>
+                            <ul>
+                                <li><strong>財産評価:</strong> 不動産や非公開株式など、専門知識を要する財産の評価を適正に行います。</li>
+                                <li><strong>遺産分割サポート:</strong> ご意向に沿った遺産分割協議書の作成を支援します。</li>
+                                <li><strong>二次相続対策:</strong> 次の世代の相続まで見据えた、長期的な節税プランをご提案します。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-item-accordion">
+                        <div class="service-header">
+                            <h3>創業・経営支援</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="service-detail-content">
+                            <p>これから事業を始める方、さらなる成長を目指す経営者を強力にバックアップします。</p>
+                            <ul>
+                                <li><strong>会社設立支援:</strong> 株式会社、合同会社など、最適な法人形態の選択から設立手続きまでサポート。</li>
+                                <li><strong>資金調達サポート:</strong> 日本政策金融公庫や各種制度融資に対応した事業計画書の作成を支援します。</li>
+                                <li><strong>クラウド会計導入:</strong> freee、マネーフォワード等の導入から運用まで、業務効率化を丁寧にサポートします。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>代表者挨拶</h2>
+                <div class="profile">
+                    <div class="profile-image">
+                        <!-- <img src="path/to/profile-photo.jpg" alt="代表税理士 稲垣明良"> -->
+                        <img src="images/representative.jpg" alt="代表者の写真" class="profile-pic">
+                    </div>
+                                        <div class="profile-text">
+                        <h3>代表税理士 稲垣 明良 (Akiyoshi Inagaki)</h3>
+                        <p>当事務所のホームページをご覧いただきありがとうございます。<br>業界平均年齢60歳以上と言われる税理士業界の中、当事務所は30代の若手税理士が大手税理士法人で培った経験を基に、高品質なサービスをリーズナブルにご提供します。「わかりづらい」税金を皆様に「わかりやすく」ご説明することを心がけておりますので、税金でお困りの際はお気軽にご相談ください。</p>
+                        <h4>経歴</h4>
+                        <ul class="career-list">
+                            <li>1994年6月　 東京都生まれ</li>
+                            <li>2013年3月　 慶應義塾志木高等学校 卒業</li>
+                            <li>2017年3月　 慶應義塾大学商学部 卒業</li>
+                            <li>2018年9月　 EY税理士法人 入社</li>
+                            <li>2021年2月　 都内税理士法人 入社</li>
+                            <li>2025年3月　 税理士登録（登録番号 : 155961）</li>
+                            <li>2025年5月　 独立開業</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>お客様の声</h2>
+                <div class="testimonial-item">
+                    <p>"以前の税理士さんはレスポンスが遅く、相談しにくい雰囲気がありましたが、稲垣先生はチャットで迅速に対応してくださり、コミュニケーションが非常にスムーズです。クラウド会計の導入も丁寧なサポートのおかげで、経理業務が劇的に楽になりました。"</p>
+                    <cite>– IT企業・30代経営者様</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"節税について具体的な提案をいくつも頂けました。ここまで親身に考えてくれる税理士さんは初めてです。おかげさまで、安心して事業に集中できています。"</p>
+                    <cite>– 飲食業・40代経営者様</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news">
+            <div class="container">
+                <h2>お知らせ</h2>
+                <div class="news-item">
+                    <span class="news-date">2025.05.01</span>
+                    <a href="#" class="news-title">公式ホームページを公開しました。</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>初回無料相談・お問い合わせ</h2>
+                <p>税務に関するお悩みやご相談がございましたら、お気軽にご連絡ください。<br>2営業日以内に担当者よりご連絡させていただきます。</p>
+                <form>
+                    <input type="text" placeholder="お名前" required>
+                    <input type="email" placeholder="メールアドレス" required>
+                    <textarea placeholder="ご相談内容" required></textarea>
+                    <button type="submit" class="cta-button">送信する</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="access" class="access">
+            <div class="container">
+                <h2>アクセス</h2>
+                <div class="access-grid">
+                    <div class="access-info">
+                        <h3>稲垣明良税理士事務所</h3>
+                        <p>〒160-0023<br>東京都新宿区西新宿５丁目８-２ 惠徳ビル５F</p>
+                        <h4>電車でのアクセス</h4>
+                        <p>都営大江戸線 西新宿五丁目駅 徒歩4分<br>東京メトロ丸の内線 西新宿駅 徒歩10分</p>
+                    </div>
+                    <div class="access-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.422528346342!2d139.685928315259!3d35.69123398019199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f34543784b2b%3A0x15f62b8d13ac3814!2z44CSMTYwLTAwMjMg5p2x5Lqs6YO95paw5a6_5Yy66KW_5paw5a6_77yV5LiB55uu77yY4oiS77yS!5e0!3m2!1sja!2sjp!4v1678886655332!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 稲垣明良税理士事務所. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
