@@ -17,11 +17,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const navMenu = document.querySelector('.nav-menu');
     const navLinks = document.querySelectorAll('.nav-menu a');
 
+    console.log('ハンバーガーメニュー要素:', mobileMenuToggle);
+    console.log('ナビメニュー要素:', navMenu);
+
     if (mobileMenuToggle && navMenu) {
         // メニューボタンクリックで開閉
         mobileMenuToggle.addEventListener('click', () => {
+            console.log('ハンバーガーメニューがクリックされました');
             mobileMenuToggle.classList.toggle('active');
             navMenu.classList.toggle('active');
+            console.log('active状態:', mobileMenuToggle.classList.contains('active'));
         });
 
         // メニューリンククリックで閉じる
