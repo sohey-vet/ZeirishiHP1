@@ -1,0 +1,136 @@
+/* スマホ対応改善CSS */
+@media (max-width: 768px) {
+    /* ヘッダーとナビゲーション */
+    .container {
+        padding: 0 15px !important;
+    }
+    
+    .logo {
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+    
+    nav ul {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+    
+    nav ul li {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    
+    nav ul li a {
+        padding: 12px 20px !important;
+        font-size: 16px !important;
+    }
+    
+    /* ヒーローセクション */
+    .hero h1 {
+        font-size: 24px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .hero p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .cta-button {
+        font-size: 16px !important;
+        padding: 15px 25px !important;
+        width: 100% !important;
+        max-width: 300px !important;
+        text-align: center !important;
+    }
+    
+    /* カードレイアウト */
+    .strength-cards,
+    .service-grid {
+        display: block !important;
+    }
+    
+    .card,
+    .service-item-accordion {
+        margin-bottom: 20px !important;
+        padding: 20px !important;
+    }
+    
+    .card h3,
+    .service-header h3 {
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* プロフィールセクション */
+    .profile {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    
+    .profile-image {
+        margin-bottom: 20px !important;
+    }
+    
+    .profile-pic {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    
+    /* フォーム */
+    .contact form input,
+    .contact form textarea {
+        width: 100% !important;
+        font-size: 16px !important;
+        padding: 15px !important;
+        margin-bottom: 15px !important;
+        box-sizing: border-box !important;
+    }
+    
+    /* アクセス */
+    .access-grid {
+        flex-direction: column !important;
+    }
+    
+    .access-map iframe {
+        height: 250px !important;
+    }
+    
+    /* セクション間隔 */
+    section {
+        padding: 40px 0 !important;
+    }
+    
+    h2 {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    /* タッチ対応 */
+    .service-header {
+        padding: 15px !important;
+        min-height: 60px !important;
+    }
+    
+    .toggle-icon {
+        font-size: 24px !important;
+    }
+}
+
+/* 非常に小さな画面用 */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 20px !important;
+    }
+    
+    .cta-button {
+        font-size: 14px !important;
+        padding: 12px 20px !important;
+    }
+    
+    .card,
+    .service-item-accordion {
+        padding: 15px !important;
+    }
+}
